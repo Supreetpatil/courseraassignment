@@ -1,18 +1,143 @@
-<style>
-	.a{
-		border:5px solid blue;
-		width:32%;
-		float:left;
-	}
-	.b{
-		border:5px solid blue;
-		width:32%;
-		float:left;
-	}
-	.c{
-		border:5px solid blue;
-		width:32%;
+    .*{
+    	box-sizing: border-box;
+    }
 
-		float:left;
+   
+
+    h1{
+    	text-align: center;
+    	color: #cccccc;
+    }
+    .d{
+		width:15%;
+		clear: left;
+		float:right;
+		padding:1%;
+		background-color: #ffd9b3;
+		border:3px double black;
+		}
+
+	.e{
+		width:15%;
+		clear: left;
+		float:right;
+		padding:1%;
+		background-color: #02d9b3;
+		border:3px double black;
+		}
+
+	.f{
+		width:15%;
+		clear: left;
+		float:right;
+		padding:1%;
+		background-color: #a2f9b3;
+		border:3px double black;
+		}
+    @media(min-width: 992px)
+    {
+    	
+    body{
+    	background-image: url(abcd.jpg);
+    	background-position: center;
+    	background-repeat: no-repeat;
+    	background-size:100%;
+    }
+    .a{
+		border:5px solid #3399ff;
+		width:32%;
+		float:right;
+	    position: relative;
+	    background-color: #cccccc;
+	    margin:1px;
+	    height:200px;
+
+		}
+
+
+	.b{
+		border:5px solid #3399ff;
+		width:32%;
+		float:right;
+		position: relative;
+		background-color:#cccccc;
+		margin:1px;
+		height:200px;
+
+			}
+
+
+	.c{
+		border:5px solid #3399ff;
+		width:32%;
+		float:right;
+		position: relative;
+		background: #cccccc;
+		margin:1px;
+		height:200px;
+
 	}
-</style>
+
+	
+    }
+
+     @media(min-width: 768px) and (max-width: 991px){
+    	.a{
+    		width:48%;
+    		border:5px solid #3399ff;
+    		background: #cccccc;
+    		float:left;
+    		height:150px;
+    		margin:1px;
+    	}
+    	.b{
+    		width:48%;
+    		border:5px solid #3399ff;
+    		background: #cccccc;
+    		float:left;
+    		height:150px;
+    		margin:1px;
+    		    	}
+    	.c{
+    		width:100%;
+    		background: 5px solid #3399ff;
+    		background: #cccccc;
+    		clear:both;
+    		height:150px;
+    		border:5px solid #3399ff;
+    	}
+    }
+
+    @media(max-width: 767px)
+    {
+    	
+    	.a{
+    		width:100%;
+    		border:5px solid #3399ff;
+    		background: #cccccc;
+    		margin:1px;
+
+
+    	}
+    	.b{
+    		width:100%;
+    		border:5px solid #3399ff;
+    		background: #cccccc;
+    		margin:1px;
+
+    	}
+
+    	.c{
+    		width:100%;
+    		border:5px solid #3399ff;
+    		background: #cccccc;
+    		margin:1px;
+              
+    	}
+
+	}
+
+}
+
+
+
